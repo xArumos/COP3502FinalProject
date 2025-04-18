@@ -43,5 +43,9 @@ class Board:
             return row, col
         return None
 
-
+    def clear(self):
+        # clears a user entered value in cell
+        if not self.given:
+            self.value = 0
+            self.temp = 0
 
